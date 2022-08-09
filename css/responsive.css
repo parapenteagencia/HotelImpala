@@ -1,0 +1,142 @@
+/*
+Copyright (c) 2016 
+------------------------------------------------------------------
+[Master responsive Stylesheet]
+
+Template Name: hotal html template 
+------------------------------------------------------------------- */
+
+@media (max-width: 1200px){
+	.hotal_checkform form select{
+		width:100%;
+		margin-bottom:20px;
+	}
+	.btn_responsive{
+		float:none;
+		display:inline-block;
+	}
+	.hotal_clients .client_detail p {
+		height: 80px;
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 990px){
+	.hotal_about_wrapper .about_facility ul li{
+		margin-right:0px;
+	}
+	.hotal_about_wrapper .about_facility ul li:after{
+		width:100%;
+	}
+	.hotal_gallery_wrapper .hotal_gallery .gallery1{
+		width:52%;
+	}
+	.hotal_gallery_wrapper .hotal_gallery .gallery2{
+		width:45%;
+	}
+	.hotal_gallery_wrapper .hotal_gallery .gallery3{
+		width:32.1%;
+	}
+	.hotal_gallery_wrapper .hotal_gallery_content{
+		padding:20px 0;
+	}
+	.hotal_gallery_content .paragraph{
+		padding:0;
+		padding-bottom:10px;
+	}
+	.newslatter_detail input{
+		width:300px;
+	}
+	.about_room .margin {
+		margin-bottom: 0;
+	}
+}
+@media (min-width: 990px) and (max-width: 1199px) {
+	.hotal_gallery_wrapper .hotal_gallery .gallery1{
+		width:52%;
+	}
+	.hotal_gallery_wrapper .hotal_gallery .gallery2{
+		width:45%;
+	}
+	.hotal_gallery_wrapper .hotal_gallery .gallery3{
+		width:32.1%;
+	}
+	.hotal_gallery_wrapper .hotal_gallery_content{
+		padding:34px 0;
+	}
+	.hotal_gallery_content h1{
+		font-size:30px;
+	}
+}
+@media (max-width: 768px) {
+	.hotal_gallery_wrapper .hotal_gallery .gallery2{
+		width:100%;
+		text-align:center;
+		margin-bottom:10px;
+	}
+	.hotal_gallery_wrapper .hotal_gallery .gallery2 img{
+		display:inline-block;
+	}
+	.hotal_gallery_wrapper .hotal_gallery .gallery1{
+		width:100%;
+		text-align:center;
+		margin-bottom:10px;
+	}
+	.hotal_gallery_wrapper .hotal_gallery .gallery1 img{
+		display:inline-block;
+	}
+	.hotal_gallery_wrapper .hotal_gallery .gallery3{
+		width:100%;
+		text-align:center;
+		margin-bottom:10px;
+	}
+	.hotal_gallery_wrapper .hotal_gallery .gallery3 img{
+		display:inline-block;
+	}
+	.btn_responsive{
+		float:none !important;
+		display:inline-block;
+		width:auto !important;
+	}
+	.heading{
+		width:100%;
+	}
+	.hotal_bestprice_detail .paragraph{
+		width:100%;
+	}
+	.para_center{
+		width:100%;
+		padding:0 20px;
+	}
+	.hotal_header_wrapper .hotal_detail .center{
+		width:100%;
+	}
+	.hotal_header_wrapper .hotal_detail h1{
+		font-size:40px;
+	}
+	.hotal_newsletter .newslatter_detail{
+		width:100%;
+		float:left;
+		text-align:center;
+		padding:0 20px;
+	}
+	.newslatter_detail  label{
+		width:100%;
+		padding-bottom:15px;
+	}
+	.newslatter_detail  input{
+		width:100%;
+		margin-bottom:20px;
+	}
+	.hotal_footer_wrapper .footer_text{
+		padding-bottom:0;
+	}
+} 
+@media (max-width: 480px){
+	.col-xs-8{
+		width:100%!important;
+	}
+	.col-xs-offset-2{
+		margin:0!important;
+	}
+}

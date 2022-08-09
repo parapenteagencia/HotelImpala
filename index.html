@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Header Start -->
+
+<head>
+    <title>Hotel Impala</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="description" content="Hotel Impala">
+    <meta name="keywords" content="hotel imapla, hotel">
+    <meta name="author" content="Luis Angel Hernández Castillo">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+    <!---------start theme style---------->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/fonts.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="css/simplelightbox.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/responsive.css" rel="stylesheet" type="text/css">
+</head>
+<!-- Header End -->
+
+<body>
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+    <!-- /PRELOADER -->
+    <!-- Back to top -->
+    <a href="#" class="btn-primary back-to-top" title="Move to top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+    <!--End Back to top -->
+    <div class="hotal_main_wrapper">
+        <div class="hotal_header_wrapper">
+            <div class="ovarlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="hotal_header text-center">
+                        <nav class="navbar navbar-expand-lg navbar-dark text-white">
+                            <div class="container">
+                                <div class="navbar-brand hotal_logo btn_responsive">
+                                    <img class="logo" src="images/logoimpala.png" alt="Logo Impala">
+                                </div>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menu de navegacion">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse flex-row-reverse" id="navbar">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a href="#reservas" class="nav-link">RESERVAS</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#instalaciones" class="nav-link">INSTALACIONES</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#testimonial" class="nav-link">TESTIMONIALES</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#galeria" class="nav-link">¡CONOCE VERACRUZ!</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="hotal_detail text-center">
+                        <div class="center">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <h1>COMODIDAD, UBICACIÓN Y EL MEJOR SERVICIO</h1>
+                                <button type="button" class="btn btn-reserva">¡RESERVA YA!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Formulario -->
+        <div class="hotal_checkform_wrapper" id="reservas">
+            <div class="container">
+                <form>
+                    <div class="hotal_checkform text-center">
+                        <div class="form-header">
+                            <h1>¡RESERVA YA!</h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <span class="form-label">Entrada</span>
+                                    <input class="form-control" type="date" name="fecha_entrada" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <span class="form-label">Salida</span>
+                                    <input class="form-control" type="date" name="fecha_salida" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <span class="form-label">Número de habitaciones</span>
+                                    <select class="form-control">
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                    </select>
+                                    <span class="select-arrow"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <span class="form-label">Adultos</span>
+                                    <select class="form-control">
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                    </select>
+                                    <span class="select-arrow"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <span class="form-label">Niños</span>
+                                    <select name="" id="" class="form-control">
+                                        <option value="">0</option>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                    </select>
+                                    <span class="select-arrow"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-btn">
+                                    <button class="btn submit-btn" type="">Comprobar Disponibilidad</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="hotal_about_wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="hotal_about_content">
+                            <h1 class="heading">GRAN HOSPEDAJE AL MEJOR COSTO</h1>
+                            <div class="about_image">
+                                <img src="images/about.jpg" alt="" class="img-responsive">
+                                <div class="ovarlay"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="about_room">
+                            <h2 class="subheading">NUESTRO HOTEL</h2>
+                            <p class="paragraph">A tan sólo pasos de la central de autobuses de la ciudad, nuestro hotel ofrece una ubicación inmejorable cercano a los puntos más turísticos y emblemáticos de Veracruz y Boca del Río.</p><br>
+                            <p class="paragraph">Contamos con habitaciones cómodas y modernas para hacer de su estancia con nosotros la más placentera y relajante.</p><br>
+                            <p class="paragraph">Cuando nos visite, no olvide conocer nuestro restaurante “La Pradera” con la auténtica sazón jarocha y servicio las 24 horas del día. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="about_facility">
+                            <h2 class="subheading">AMENIDADES</h2>
+                            <ul>
+                                <li class="paragraph"><i class="fas fa-wifi"></i> Wi-Fi</li>
+                                <li class="paragraph"><i class="fas fa-snowflake"></i> A/C</li>
+                                <li class="paragraph"><i class="fas fa-utensils"></i> Restaurante</li>
+                                <li class="paragraph"><i class="fas fa-business-time"></i> Business Center</li>
+                                <li class="paragraph"><i class="fas fa-person-booth"></i> Servicio al cuarto</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hotal_ourrooms_wrapper text-center" id="instalaciones">
+            <div class="container">
+                <h1 class="heading padding_20">INSTALACIONES</h1>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="hotal_rooms btn_responsive">
+                            <img src="images/HABSENCILLA.jpg" alt="" class="img-responsive">
+                            <div class="hotal_rooms_detail text-center">
+                                <h2>Habitación Sencilla</h2>
+                                <p class="paragraph">1 Person , Queen Bed , 3 Window</p>
+                                <span>Desde $440 mxn la noche</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="hotal_rooms btn_responsive">
+                            <img src="images/HABCUADRUPLE.jpg" alt="" class="img-responsive">
+                            <div class="hotal_rooms_detail text-center">
+                                <h2>Habitación Doble</h2>
+                                <p class="paragraph">1 Person , Queen Bed , 3 Window</p>
+                                <span>Desde $550 mxn la noche</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hotal_vedio_wrapper">
+            <div class="ovarlay">
+                <iframe class="youtube" src="https://www.youtube.com/embed/ot6ky9RU8TA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="hotal_happyclient_wrapper" id="testimonial">
+            <div class="container">
+                <h1 class="heading padding_60">TESTIMONIALES</h1>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="hotal_clients">
+                            <div class="client_img text-center">
+                                <img src="images/JUAN.jpg" class="img-responsive" alt="">
+                            </div>
+                            <div class="client_detail">
+                                <p class="paragraph">Necesitaba supervisar algunas sucursales de mi empresa en la ciudad y todo estaba muy cerca, además la atención de la gente que aquí trabaja es muy buena.</p>
+                                <h3>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </h3>
+                                <h2>Juan Rodríguez</h2><span>( Viaje de trabajo )</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="hotal_clients">
+                            <div class="client_img text-center">
+                                <img src="images/ANGELINA.jpg" class="img-responsive" alt="">
+                            </div>
+                            <div class="client_detail">
+                                <p class="paragraph">Lo que más me encantó fue el costo de su habitación, para la calidad y limpieza, son muy cómodas y agradables sus instalaciones.</p>
+                                <h3><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></i><i class="fa fa-star" aria-hidden="true"></i></h3>
+                                <h2>Angelina Hernández</h2><span>( Manager of KST inc )</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="hotal_clients">
+                            <div class="client_img text-center">
+                                <img src="images/ABELARDO.jpg" class="img-responsive" alt="">
+                            </div>
+                            <div class="client_detail">
+                                <p class="paragraph">Muy bonito hotel, precios accesibles y siempre cerca de todo. Sin duda volvería en modo turista.</p>
+                                <h3><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></i><i class="fa fa-star" aria-hidden="true"></i></h3>
+                                <h2>Abelardo Domínguez</h2><span>( Congresista )</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="hotal_clients">
+                            <div class="client_img text-center">
+                                <img src="images/client2.jpg" class="img-responsive" alt="">
+                            </div>
+                            <div class="client_detail">
+                                <p class="paragraph">Vine a un viaje de prácticas de mi escuela, todo estuvo muy agradable y en su restaurante se desayuna muy rico.</p>
+                                <h3><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></i><i class="fa fa-star" aria-hidden="true"></i></h3>
+                                <h2>Adrian Saldaña</h2><span>( Estudiante )</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hotal_gallery_wrapper" id="galeria">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="text-center heading mb-3">GALERÍA</h1>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="gallery">
+                            <a href="images/gallery1.jpg" class="big"><img src="images/thumbs/thumb1.jpg" alt="" title="Beautiful Image" /></a>
+                            <a href="images/gallery2.jpg"><img src="images/thumbs/thumb2.jpg" alt="" title="" /></a>
+                            <a href="images/gallery3.jpg"><img src="images/thumbs/thumb3.jpg" alt="" title="Beautiful Image" /></a>
+                            <a href="images/"><img src="images/thumbs/thumb4.jpg" alt="" title="" /></a>
+                            <div class="clear"></div>
+                            <a href="images/"><img src="images/thumbs/thumb5.jpg" alt="" title="" /></a>
+                            <a href="images/"><img src="images/thumbs/thumb6.jpg" alt="" title="" /></a>
+                            <a href="images/" class="big"><img src="images/thumbs/thumb7.jpg" alt="" title="" /></a>
+                            <a href="images/"><img src="images/thumbs/thumb8.jpg" alt="" title="" /></a>
+                            <div class="clear"></div>
+                            <a href="images/" class="big"><img src="images/thumbs/thumb9.jpg" alt="" title="" /></a>
+                            <a href="images/"><img src="images/thumbs/thumb10.jpg" alt="" title="" /></a>
+                            <a href="images/"><img src="images/thumbs/thumb11.jpg" alt="" title="" /></a>
+                            <a href="images/"><img src="images/thumbs/thumb12.jpg" alt="" title="" /></a>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hotal_bestprice_wrapper">
+            <div class="ovarlay">
+                <div class="hotal_bestprice_detail text-center">
+                    <h1>¡EL MEJOR PRECIO GARNTIZADO!</h1>
+                    <p class="paragraph">De placer o negocios, nuestro hotel es el lugar perfecto para hospedarse cuando visite la preciosa ciudad de Veracruz.</p>
+                    <a href="#" class="btn2">RESERVAS</a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="hotal_footer_wrapper text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="footer_text btn_responsive">
+                                <h6>
+                                    Copyright &copy;<script>
+                                    document.write(new Date().getFullYear());
+                                    </script>. Todos los derechos reservados. Desarrollado por <a href="http://parapenteagencia.com" class="parapente" target="_blank" data-toggle="tooltip" data-placement="top" title="¡Visítanos!">Parapente </a><i class="fa fa-heart-o" aria-hidden="true"></i>.
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="footer_social_icon btn_responsive">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/pages/Hotel-Impala/110122292376753" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                                    <li><a href="https://www.instagram.com/impalahotel/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+        <!-- Your customer chat code -->
+        <div class="fb-customerchat" attribution=install_email page_id="110369040393470" theme_color="#9C927B" logged_in_greeting="&#xa1;Hola! &#xa1;Gracias por contactarnos!" logged_out_greeting="&#xa1;Hola! &#xa1;Gracias por contactarnos!">
+        </div>
+    </div>
+    <!-----------theme js---------------->
+    <script src="https://kit.fontawesome.com/63c69e6106.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
+    <script src="js/preloading.js" type="text/javascript"></script>
+    <!-- Galería -->
+    <script src="js/simple-lightbox.js" type="text/javascript"></script>
+    <script src="js/galeria.js" type="text/javascript"></script>
+    <!-- FB Messenger -->
+    <script src="js/fbmessenger.js" type="text/javascript"></script>
+</body>
+
+</html>

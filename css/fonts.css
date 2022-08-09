@@ -1,0 +1,78 @@
+/* included only when we don't want to use fonts from google server */
+/* latin */
+@font-face {
+  font-family: 'OpenSans';
+  font-style: Light;
+  font-weight: 300;
+  src: local('OpenSans Light'), local('OpenSans-Light'), 
+  url(../fonts/opensans/OpenSans-Light.woff2) format('woff2'),
+  url(../fonts/opensans/OpenSans-Light.woff) format('woff'),
+  url(../fonts/opensans/OpenSans-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-style: Regular;
+  font-weight: 400;
+  src: local('OpenSans Regular'), local('OpenSans-Regular'), 
+  url(../fonts/opensans/OpenSans-Regular.woff2) format('woff2'),
+  url(../fonts/opensans/OpenSans-Regular.woff) format('woff'),
+  url(../fonts/opensans/OpenSans-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-style: Bold;
+  font-weight: 700;
+  src: local('OpenSans Bold'), local('OpenSans-Bold'), 
+  url(../fonts/opensans/OpenSans-Bold.woff2) format('woff2'),
+  url(../fonts/opensans/OpenSans-Bold.woff) format('woff'),
+  url(../fonts/opensans/OpenSans-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: Medium;
+  font-weight: 500;
+  src: local('Roboto SemiBold'), local('Roboto-SemiBold'), 
+  url(../fonts/roboto/Roboto-SemiBold.woff2) format('woff2'),
+  url(../fonts/roboto/Roboto-SemiBold.woff) format('woff'),
+  url(../fonts/roboto/Roboto-SemiBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: Light;
+  font-weight: 300;
+  src: local('Roboto Regular'), local('Roboto-Regular'), 
+  url(../fonts/roboto/Roboto-Regular.woff2) format('woff2'),
+  url(../fonts/roboto/Roboto-Regular.woff) format('woff'),
+  url(../fonts/roboto/Roboto-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: Thin;
+  font-weight: 100;
+  src: local('Roboto Regular'), local('Roboto-Regular'), 
+  url(../fonts/roboto/Roboto-Regular.woff2) format('woff2'),
+  url(../fonts/roboto/Roboto-Regular.woff) format('woff'),
+  url(../fonts/roboto/Roboto-Regular.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: Regular;
+  font-weight: 400;
+  src: local('Roboto Regular'), local('Roboto-Regular'), 
+  url(../fonts/roboto/Roboto-Regular.woff2) format('woff2'),
+  url(../fonts/roboto/Roboto-Regular.woff) format('woff'),
+  url(../fonts/roboto/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: Bold;
+  font-weight: 600;
+  src: local('Roboto Bold'), local('Roboto-Bold'), 
+  url(../fonts/roboto/Roboto-Bold.woff2) format('woff2'),
+  url(../fonts/roboto/Roboto-Bold.woff) format('woff'),
+  url(../fonts/roboto/Roboto-Bold.ttf) format('truetype');
+}
